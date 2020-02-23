@@ -13,9 +13,9 @@ body{
 .card{
     position:absolute;
     margin-left: 50%;
-    left:-15vw;
-    width: 30vw;
-    height: 30vw;
+    left:-20vw;
+    width: 40vw;
+    height: 40vw;
     background-color: white;
     outline: 4px outset rgba(125,125,125,0.31);
     outline-offset: 0px;
@@ -25,17 +25,16 @@ body{
     z-index: 1;
 }
 #card1{
-    top:5vh;
+    top:10%;
     background-image: url('images/burningbrain.png');
 }
 #card2{
-    top:30vw;
-    margin-top:10vh;
+    top:50%;
+    margin-top:-20vw;
     background-image: url('images/pingpong.png');
 }
 #card3{
-    top:60vw;
-    margin-top:15vh;
+    bottom:10%;
     background-image: url('images/flash.png');
 }
 
