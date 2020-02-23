@@ -1,5 +1,11 @@
+@font-face{
+    src: url('typewcond_regular.otf');
+    font-family: Gellosia;
+}
 body{
     background-color: #333333;
+    margin-top:0px;
+    margin-left:0px;
 }
 #card_container{
 
@@ -15,15 +21,53 @@ body{
     outline-offset: 0px;
     -webkit-box-shadow: 7px 6px 8px -5px rgba(0,0,0,0.47); 
     box-shadow: 7px 6px 8px -5px rgba(0,0,0,0.47);
+    background-size: contain;
+    z-index: 1;
 }
 #card1{
     top:5vh;
+    background-image: url('./images/burningbrain.png');
 }
 #card2{
     top:30vw;
     margin-top:10vh;
+    background-image: url('images/pingpong.png');
 }
 #card3{
     top:60vw;
     margin-top:15vh;
+    background-image: url('images/flash.png');
+}
+
+#bigcontainer{
+    position: absolute;
+    z-index:3;
+    width:100%;
+    height:100%;
+    opacity: 0.4;
+    background-color: black;
+    display:none;
+}
+
+#bigcard{
+    z-index: 4;
+    position: absolute;
+    width:60vw;
+    height:60vw;
+    margin-left:50%;
+    left:-30vw;
+    top:50%;
+    margin-top:-30vw;
+    background-color: white;
+    display: none;
+}
+
+#cardText{
+    display: flex; 
+    margin: auto;
+    font-size: 4vw;
+    vertical-align: middle;
+    text-align: center;
+    font-family: Gellosia;
+    user-select: none;
 }

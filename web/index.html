@@ -6,15 +6,22 @@
     <title>Brainkick Web</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body onload="init()">
+
     <div id="cards">
-        <div class="card" id="card1"></div>
-        <div class="card" id="card2"></div>
-        <div class="card" id="card3"></div>
+        <div class="card" id="card1" onClick="showCard('burningbrain')"></div>
+        <div class="card" id="card2" onClick="showCard('pingpong')"></div>
+        <div class="card" id="card3" onClick="showCard('flash')"></div>
     </div>
 
+    <div id="bigcontainer" onClick="goBack()"> </div>
+
+    <div id="bigcard" onClick="goBack()">
+        <p id="cardText" onClick="goBack()"></p>
+    </div>
 
 <!-- JS scripts -->
+<script type = "text/javascript" src="cards.js"></script>
 <script type = "text/javascript" src="script.js"></script>
 </body>
 </html>
