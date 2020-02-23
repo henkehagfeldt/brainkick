@@ -15,14 +15,14 @@ function init(){
 }
 
 function goBack(){
-    document.querySelector("#bigcontainer").style.display = "none";
-    document.querySelector("#bigcard").style.display = "none";
+    document.querySelector("#bigcontainer").style.zIndex = 0;
+    document.querySelector("#bigcard").style.zIndex = 0;
 }
 
 function showCard(type){
 
-    document.querySelector("#bigcontainer").style.display = "block";
-    document.querySelector("#bigcard").style.display = "flex";
+    document.querySelector("#bigcontainer").style.zIndex = 3;
+    document.querySelector("#bigcard").style.zIndex = 4;
 
     switch(type){
         case 'flash':
