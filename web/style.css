@@ -1,0 +1,29 @@
+body{
+    background-color: #333333;
+}
+#card_container{
+
+}
+.card{
+    position:absolute;
+    margin-left: 50%;
+    left:-15vw;
+    width: 30vw;
+    height: 30vw;
+    background-color: white;
+    outline: 4px outset rgba(125,125,125,0.31);
+    outline-offset: 0px;
+    -webkit-box-shadow: 7px 6px 8px -5px rgba(0,0,0,0.47); 
+    box-shadow: 7px 6px 8px -5px rgba(0,0,0,0.47);
+}
+#card1{
+    top:5vh;
+}
+#card2{
+    top:30vw;
+    margin-top:10vh;
+}
+#card3{
+    top:60vw;
+    margin-top:15vh;
+}
